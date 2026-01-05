@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visionary Studio | Graphic Design Agency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">Visionary Studio</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Design That Defines Your Brand</h1>
+    <p>We craft bold visual identities that communicate, inspire, and convert.</p>
+    <button onclick="scrollToContact()">Start a Project</button>
+</section>
+
+<section id="about" class="section">
+    <h2>Who We Are</h2>
+    <p>
+        Visionary Studio is a creative graphic design firm focused on delivering
+        meaningful and visually compelling brand experiences. Our work blends
+        strategy, creativity, and precision.
+    </p>
+</section>
+
+<section id="services" class="section dark">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Brand Identity</h3>
+            <p>Logos, brand systems, and visual guidelines.</p>
+        </div>
+        <div class="card">
+            <h3>Digital Design</h3>
+            <p>Web graphics, social media, and UI visuals.</p>
+        </div>
+        <div class="card">
+            <h3>Print Design</h3>
+            <p>Posters, brochures, packaging, and stationery.</p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="section">
+    <h2>Selected Work</h2>
+    <div class="gallery">
+        <div class="mock">Brand Concept A</div>
+        <div class="mock">Brand Concept B</div>
+        <div class="mock">Brand Concept C</div>
+    </div>
+</section>
+
+<section id="contact" class="section dark">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Project Details" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="formStatus"></p>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Visionary Studio. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
